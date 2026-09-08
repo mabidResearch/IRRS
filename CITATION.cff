@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use or refer to this research artefact, please cite it using the metadata below."
+title: "Incident Response Readiness Score (IRRS) Toolkit"
+type: software
+authors:
+  - family-names: "Abid"
+    given-names: "Muntathar"
+repository-code: "https://github.com/MAbidResearch/IRRS"
+url: "https://github.com/MAbidResearch/IRRS"
+abstract: >-
+  The Incident Response Readiness Score (IRRS) Toolkit provides
+  scenario-based assessment resources, evaluator scoring rubrics,
+  scenario weighting guides, scoring templates, and human-centred
+  telemetry instruments for assessing organisational incident
+  response readiness.
+keywords:
+  - incident response
+  - cybersecurity
+  - readiness assessment
+  - IRRS
+  - decision latency
+  - communication entropy
+  - authority drift
