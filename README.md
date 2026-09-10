@@ -58,6 +58,16 @@ The weighting profiles are design-proposed components of the IRRS assessment mec
 
 The scoring card provides a reusable structure for recording scenario-level IRRS assessments using the associated rubrics and weighting guides.
 
+### Scoring Convention
+
+IRRS sub-metrics are scored on an ordinal scale from 0 to 5 using the behavioural anchors defined in the evaluator rubrics.
+
+Where the rubric provides explicit anchor descriptions for Scores 1 and 3 but does not separately define Score 2, Score 2 is assigned when the observed response performance exceeds the criteria for Score 1 but does not satisfy the criteria for Score 3.
+
+The evaluator should record a brief evidence-based rationale for the intermediate score.
+
+Score 2 represents an ordinal interpolation between the defined rubric anchors and should not be interpreted as a separately empirically calibrated threshold.
+
 ### Human-Centred Telemetry Instruments (v2.0)
 
 The telemetry instruments support the diagnostic layer of the IRRS framework by enabling evaluators to capture:
