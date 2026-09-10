@@ -36,19 +36,19 @@ A frozen release will be created once the artefact set is finalised. Until that 
 
 Used by facilitators to assign sub-metric scores (sᵢ) based on observed organisational response behaviour during simulations.
 
-- `Evaluator_Rubric_Ransomware.pdf`
-- `Evaluator_Rubric_InsiderThreat.pdf`
-- `Evaluator_Rubric_CredentialLeakage.pdf`
-- `Evaluator_Rubric_CloudMisconfig.pdf`
+- `Ransomware/Ransomware_Evaluator_Scoring_Rubric.pdf`
+- `Insider Threat/InsiderThreat_Evaluator_Scoring_Rubric.pdf`
+- `Credential Leakage/Credential Leakage_Evaluator_Scoring_Rubric.pdf`
+- `Public-Cloud Misconfiguration/Public_Cloud Misconfiguration_Scoring_Rubric.pdf`
 
 ### Scenario Weighting Guides
 
 Provide predefined scenario-specific weighting profiles (wᵢ) for IRRS sub-metrics.
 
-- `Scenario_Weights_Ransomware.pdf`
-- `Scenario_Weights_InsiderThreat.pdf`
-- `Scenario_Weights_CredentialLeakage.pdf`
-- `Scenario_Weights_CloudMisconfig.pdf`
+- `Ransomware/Ransomware_Weighting_Guide.pdf`
+- `Insider Threat/InsiderThreat_Weighting_Guide.pdf`
+- `Credential Leakage/Credential Leakage_Weighting_Guide.pdf`
+- `Public-Cloud Misconfiguration/Public-Cloud Misconfiguration_Weighting_Guide.pdf`
 
 The weighting profiles are design-proposed components of the IRRS assessment mechanism. They support consistent scenario demonstration but should not be interpreted as empirically calibrated universal weights.
 
@@ -131,7 +131,7 @@ The table below summarises the critical reference bands used within the three te
 | Cloud Misconfiguration | 3 | Over 25 mins | Over 30:1 | Over 30% |
 | Credential Leakage | 3 | Over 25 mins | Over 30:1 | Over 30% |
 
-These bands are design-proposed diagnostic reference points used to support consistent scenario interpretation. They have not been established as universal empirical thresholds and should be adapted and recalibrated where organisations accumulate sufficient local exercise or operational evidence.
+These bands are design-proposed diagnostic reference points used to support consistent scenario interpretation. They have not been established as universal empirical thresholds. Application beyond the documented research scenarios should therefore be accompanied by appropriate contextual review and validation.
 
 ---
 
@@ -148,15 +148,15 @@ The repository should therefore be interpreted within the following boundaries:
 - the toolkit is not claimed to provide a universally validated organisational readiness standard; and
 - further field application and empirical calibration remain appropriate areas for future validation.
 
-These distinctions are important when applying the toolkit outside the scenarios and demonstrations documented in the associated research.
+These distinctions are important when interpreting the toolkit beyond the scenarios and demonstrations documented in the associated research.
 
 ---
 
 ## Intended Use
 
-The instruments in this repository are intended for diagnostic assessment of organisational incident response processes.
+The instruments in this repository are designed for diagnostic assessment of organisational incident response processes.
 
-They are designed to support:
+Potential applications include:
 
 - incident-response exercises and simulations;
 - organisational readiness assessment;
@@ -167,21 +167,37 @@ They are designed to support:
 
 The toolkit is not intended to evaluate individual employee competence, personal performance, or conduct. Measurements should be interpreted at the response-system and organisational-process level.
 
+Description of these potential applications does not grant permission to reproduce, adapt, redistribute, or incorporate the researcher-developed artefacts into another work. Use of the materials remains subject to the terms stated in `LICENSE.md`.
+
 ---
 
 ## Versioning
 
 This repository contains the current research distribution of the IRRS toolkit.
 
-A frozen release will be created using the tag:
+A frozen release is planned using the tag:
 
 `v1.0-thesis`
 
-Once published, that release will provide a stable and immutable version of the artefact set for citation and reproducibility purposes.
+Once published, that release will identify the stable version of the artefact set used for citation and research reproducibility.
 
 The original publication-linked repository remains available at:
 
 [`Tenodex/IRRS`](https://github.com/Tenodex/IRRS)
+
+---
+
+## Copyright and Use
+
+Copyright © 2026 Muntathar Abid. All rights reserved.
+
+This repository is publicly accessible for academic review, citation, research transparency, and reproducibility.
+
+Public availability does not constitute permission to reproduce, modify, adapt, redistribute, incorporate into another work, or commercially exploit the researcher-developed artefacts.
+
+Any use beyond viewing and normal academic citation requires prior written permission from the copyright holder and remains subject to `LICENSE.md`.
+
+Third-party material remains subject to the rights and licence conditions of its respective owners.
 
 ---
 
@@ -197,4 +213,4 @@ Earlier conference work associated with the development of the readiness approac
 
 ## Contact
 
-For questions regarding the IRRS framework, toolkit, or associated research artefacts, please raise an issue in this repository.
+For enquiries regarding the IRRS framework, toolkit, or associated research artefacts, please contact the repository owner.
